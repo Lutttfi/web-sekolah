@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap'); 
+/* font-family: "Agbalumo"; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/* font-family: 'Roboto Slab', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: blue;
+}
+
