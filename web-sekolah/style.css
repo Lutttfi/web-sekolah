@@ -1,0 +1,63 @@
+body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 30px;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #1f1a1a;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 30px;
+    border: solid gray 5px;
+    box-shadow: 4px 4px 7px #494343;
+    border-radius: 20px;
+  }
+  
+  main {
+    display: flex;
+    border: solid black 7px;
+    box-shadow: 4px 4px 7px #494343;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .ekstrakurikuler {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7em;
+    justify-content: center;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+  }
+  
+  div {
+    width: 300px;
+    margin: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 30px;
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 6px #494343;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  img {
+    display: flexbox;
+  
+    flex-wrap: wrap;
+    max-width: 250px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
