@@ -71,51 +71,42 @@ main p {
   margin: 10px auto;
 }
 
-#keahlian svg {
-  width: 20px;
-  fill: blue;
-  display: block;
-}
-
-.keahlian1 { 
-  margin: 10px;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  
-}
-
-#dpib,
-#titl,
-#tpm,
-#tkro,
-#tkj,
-#rpl,
-#tsm,
-#ki,
-#tei {
-  margin: 50px auto;
-  text-align: center;
-  padding: 10px;
-  width: 20vw;
+* {
   box-sizing: border-box;
-  position: relative;
-  padding: 2px solid #f7f7f7;
-  border-radius: 10px;
-   transition: border-color 0.3s aese, color 0.3s aese; 
+  scroll-behavior: smooth;
 }
-
-#dpib:hover,
-#titl:hover,
-#tpm:hover,
-#tkro:hover,
-#tkj:hover,
-#rpl:hover,
-#tsm:hover,
-#ki:hover,
-#tei:hover {
-  border: 3px solid #1e1e1eff;
+.dpib,
+.titl,
+.tpm,
+.tkr,
+.tkj,
+.rpl,
+.tsm,
+.tki,
+.tei {
+  box-sizing: border-box;
+  border: 1px lightgray solid;
+  display: block;
+  margin: 10px;
+  max-width: 350px;
+  padding: 10px;
+}
+.jurusan {
+  text-align: center;
+  font-size: 12px;
+}
+.jurusan1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.jurusan2 {
+  display: flex;
+  justify-content: center;
+}
+.jurusan3 {
+  display: flex;
+  justify-content: center;
 }
 footer {
     background-color: #1e1e1eff;color: white;
