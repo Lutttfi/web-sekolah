@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+/* font-family: "Agbalumo"; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+/* font-family: 'Roboto Slab', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  color: blue;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  background-color: aliceblue;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-bottom: black solid 1px;
+  top: 0;
+  z-index: 9999;
+}
+
+.navbar img {
+  margin-left: 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  font-weight: bolder;
+  margin-right: 20px;
+
+  
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: blue;
+  display: grid;
+}
+
+main {
+  margin-top: 12vh;
+  text-align: center;
+}
+
+main h1 {
+  color:cornflowerblue;
+  font-size: 45px;
+}
+
+main p {
+  font-size: 15px;
+  max-width: 1000px;
+  margin: 10px auto;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.dpib,
+.titl,
+.tpm,
+.tkr,
+.tkj,
+.rpl,
+.tsm,
+.tki,
+.tei {
+  box-sizing: border-box;
+  border: 1px lightgray solid;
+  display: block;
+  margin: 10px;
+  max-width: 350px;
+  padding: 10px;
+}
+.jurusan {
+  text-align: center;
+  font-size: 12px;
+}
+.jurusan1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.jurusan2 {
+  display: flex;
+  justify-content: center;
+}
+.jurusan3 {
+  display: flex;
+  justify-content: center;
+}
+footer {
+    background-color: #1e1e1eff;color: white;
+    text-align: center;
+    height: 15vh;
+    padding: 6vh 0vw;
+}
