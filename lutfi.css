@@ -9,7 +9,12 @@
 body {
   width: 100%;
   height: 100vh;
-  background: url(Foto\ SMKN\ 2\ Bangkalan.png);
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(Foto\ SMKN\ 2\ Bangkalan.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
