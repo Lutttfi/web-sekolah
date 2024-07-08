@@ -17,7 +17,6 @@ a:hover {
   color: blue;
   display: flex;
   justify-content: space-between;
-  
 }
 
 .navbar {
@@ -40,8 +39,6 @@ a:hover {
   width: 250px;
 }
 
-
-
 .navbar ul li {
   list-style: none;
   display: inline-block;
@@ -57,16 +54,16 @@ a:hover {
 }
 
 .navbar ul li a:hover {
-  color: rgb(8, 188, 248);
+  color: rgb(8,  188,  248);
 }
 
 main {
-  margin-top: 12vh;
+  margin-top: 100px;
   text-align: center;
 }
 
 main h1 {
-  color:cornflowerblue;
+  color: cornflowerblue;
   font-size: 45px;
 }
 
@@ -114,8 +111,9 @@ main p {
   justify-content: center;
 }
 footer {
-    background-color: #1e1e1eff;color: white;
-    text-align: center;
-    height: 15vh;
-    padding: 6vh 0vw;
+  background-color: #1e1e1eff;
+  color: white;
+  text-align: center;
+  height: 15vh;
+  padding: 6vh 0vw;
 }
